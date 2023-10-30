@@ -1,0 +1,138 @@
+.header_logo{
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Revalia', cursive;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+
+}
+h1{
+    margin: 0px;
+}
+.header_menu{
+    color: black;
+    font-size: 20px;
+    font-family: 'Revalia', cursive;
+    cursor: pointer;
+
+}
+
+.item_menu{
+    color: black;
+    font-size: 20px;
+    font-family: 'Revalia', cursive;
+    transition: 0.5s;
+    margin-right: 19px;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.item_menu:hover{
+    color: white;
+    font-size: 21px;
+    background-color: darkblue;
+}
+
+header{
+    background: #eeeff1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    border-bottom: 5px solid darkblue;
+}
+body{
+    width: 100%;
+    background: #eeeff1;
+
+}
+.intro{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 100px auto;
+}
+@media (max-width:1200px){
+    .intro{
+        flex-direction: column;
+    }
+}
+.intro_left{
+    width: 100%;
+    text-align: center;
+}
+.intro_img{
+    background-color: darkblue;
+    padding: 20px 6px;
+    border-radius: 15px;
+}
+.intro_right{
+    width: 100%;
+}
+.intro_title{
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 79px;
+    color: black;
+    text-align: center;
+}
+.intro_text{
+    font-family: 'Revalia', cursive;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    color: #727272;
+}
+.about{
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aboutblog{
+    width: 40%;
+    text-align: center;
+
+}
+.about_title{
+    font-family: 'Revalia', cursive;
+    font-size: 21px;
+    padding-bottom: 4px;
+
+}
+.about_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.projects{
+    background: darkblue;
+    width: 100%;
+
+}
+.projects_block{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.projects_amg{
+    width: 120px;
+
+}
+.contacts{
+    font-family: 'Revalia', cursive;
+    text-align: center;
+    border-bottom: 5px solid darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+;
+
+}
