@@ -52,7 +52,7 @@ body{
     display: flex;
     width: 70%;
     justify-content: center;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 @media (max-width:1200px){
     .intro{
